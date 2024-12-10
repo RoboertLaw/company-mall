@@ -14,7 +14,7 @@
           <mxGeometry x="160" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6gzfc5hC1QTd9-dfOM9L-3" value="四层协议" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="40" width="120" height="80" as="geometry" />
+          <mxGeometry x="600" y="30" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6gzfc5hC1QTd9-dfOM9L-4" value="应用层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="600" y="360" width="120" height="80" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry x="960" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6gzfc5hC1QTd9-dfOM9L-26" value="网络传输接口层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1120" width="120" height="80" as="geometry" />
+          <mxGeometry x="600" y="1220" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6gzfc5hC1QTd9-dfOM9L-27" value="文件传输" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="360" width="120" height="80" as="geometry" />
@@ -136,6 +136,9 @@
         <mxCell id="6gzfc5hC1QTd9-dfOM9L-39" value="相对TCP协议更加快" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="840" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="6gzfc5hC1QTd9-dfOM9L-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6gzfc5hC1QTd9-dfOM9L-42" target="6gzfc5hC1QTd9-dfOM9L-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6gzfc5hC1QTd9-dfOM9L-42" value="IP" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="800" y="1000" width="80" height="80" as="geometry" />
         </mxCell>
@@ -150,6 +153,21 @@
         </mxCell>
         <mxCell id="6gzfc5hC1QTd9-dfOM9L-46" value="&lt;span style=&quot;color: rgb(5, 7, 59); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left; background-color: rgb(253, 253, 254);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;负责在源主机和目标主机的应用程序之间提供端到端的通信&lt;/font&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6gzfc5hC1QTd9-dfOM9L-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6gzfc5hC1QTd9-dfOM9L-48" target="6gzfc5hC1QTd9-dfOM9L-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gzfc5hC1QTd9-dfOM9L-48" value="&lt;span style=&quot;color: rgb(5, 7, 59); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left; background-color: rgb(253, 253, 254);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;这是最接近用户的层次，为应用程序提供网络服务&lt;/font&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6gzfc5hC1QTd9-dfOM9L-50" value="&lt;span style=&quot;color: rgb(5, 7, 59); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: left; background-color: rgb(253, 253, 254);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;地址寻址和路由选择&lt;/font&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6gzfc5hC1QTd9-dfOM9L-51" value="IP" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6gzfc5hC1QTd9-dfOM9L-52" value="IP" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1280" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
