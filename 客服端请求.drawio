@@ -1,9 +1,55 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="zHsHpIi8ZQb5y4VbiFZx">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="F-kJjdIgFgifOwfPaGV--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F-kJjdIgFgifOwfPaGV--1" target="F-kJjdIgFgifOwfPaGV--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F-kJjdIgFgifOwfPaGV--1" target="F-kJjdIgFgifOwfPaGV--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--1" value="开始发出请求" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F-kJjdIgFgifOwfPaGV--4" target="F-kJjdIgFgifOwfPaGV--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--24" value="没有缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F-kJjdIgFgifOwfPaGV--23">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--4" value="判断本地是否有缓存" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F-kJjdIgFgifOwfPaGV--9" target="F-kJjdIgFgifOwfPaGV--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--9" value="通过域名发出请求" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F-kJjdIgFgifOwfPaGV--12" target="F-kJjdIgFgifOwfPaGV--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--12" value="通过IP地址开始请求" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--15" value="IP服务端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="640" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F-kJjdIgFgifOwfPaGV--4" target="F-kJjdIgFgifOwfPaGV--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--22" value="有相关缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F-kJjdIgFgifOwfPaGV--19">
+          <mxGeometry x="-0.1878" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-kJjdIgFgifOwfPaGV--21" value="DNS解析返回IP地址" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="440" width="130" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
