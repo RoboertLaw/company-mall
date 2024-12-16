@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="M7AjdZE85rHGT-nY5YdZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qUoXDynGUHG3Cu3Zlt9r-1" target="qUoXDynGUHG3Cu3Zlt9r-3">
+        <mxCell id="M7AjdZE85rHGT-nY5YdZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qUoXDynGUHG3Cu3Zlt9r-1" target="qUoXDynGUHG3Cu3Zlt9r-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="客服端" link="https://app.diagrams.net/#HRoboertLaw%2Fcompany-mall%2Frelease%2F%E5%AE%A2%E6%9C%8D%E7%AB%AF%E8%AF%B7%E6%B1%82.drawio#%7B%22pageId%22%3A%22zHsHpIi8ZQb5y4VbiFZx%22%7D" linkTarget="_blank" id="qUoXDynGUHG3Cu3Zlt9r-1">
@@ -12,24 +12,31 @@
             <mxGeometry x="200" y="40" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="qUoXDynGUHG3Cu3Zlt9r-2" value="服务端" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="40" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="M7AjdZE85rHGT-nY5YdZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qUoXDynGUHG3Cu3Zlt9r-3" target="qUoXDynGUHG3Cu3Zlt9r-2">
+        <UserObject label="服务端" link="https://github.com/RoboertLaw/company-mall/blob/main/mall.drawio" linkTarget="_blank" id="qUoXDynGUHG3Cu3Zlt9r-2">
+          <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="760" y="40" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="M7AjdZE85rHGT-nY5YdZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qUoXDynGUHG3Cu3Zlt9r-3" target="qUoXDynGUHG3Cu3Zlt9r-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKFJWEIuW2hNJwX77biE-1" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M7AjdZE85rHGT-nY5YdZ-2">
+          <mxGeometry x="-0.0875" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="请求协议" link="https://app.diagrams.net/#HRoboertLaw%2Fcompany-mall%2Frelease%2F%E8%AF%B7%E6%B1%82%E5%8D%8F%E8%AE%AE.drawio#%7B%22pageId%22%3A%22bnDQp0RB2ErarTcb1Inx%22%7D" linkTarget="_blank" id="qUoXDynGUHG3Cu3Zlt9r-3">
           <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="480" y="40" width="120" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="M7AjdZE85rHGT-nY5YdZ-3" value="网络协议" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M7AjdZE85rHGT-nY5YdZ-3" value="网络协议" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="M7AjdZE85rHGT-nY5YdZ-4" value="浏览器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M7AjdZE85rHGT-nY5YdZ-4" value="浏览器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="M7AjdZE85rHGT-nY5YdZ-5" value="后端服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M7AjdZE85rHGT-nY5YdZ-5" value="后端服务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="200" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
