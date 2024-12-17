@@ -39,7 +39,7 @@
         <mxCell id="ZV6XMfOQ74pARRNnrbGQ-2" value="自营设备" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="140" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZV6XMfOQ74pARRNnrbGQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZV6XMfOQ74pARRNnrbGQ-7" target="ZV6XMfOQ74pARRNnrbGQ-10" edge="1">
+        <mxCell id="veOaxyh6QNud1F9IK5Fy-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZV6XMfOQ74pARRNnrbGQ-7" target="4zYx_IYyjGAKQZHvy07_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZV6XMfOQ74pARRNnrbGQ-7" value="ifaiserver" style="whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
@@ -206,6 +206,12 @@
         </mxCell>
         <mxCell id="4zYx_IYyjGAKQZHvy07_-5" value="Redis" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
           <mxGeometry x="750" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="veOaxyh6QNud1F9IK5Fy-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZV6XMfOQ74pARRNnrbGQ-7" target="ZV6XMfOQ74pARRNnrbGQ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1240" as="sourcePoint" />
+            <mxPoint x="480" y="1190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
